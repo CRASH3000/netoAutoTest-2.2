@@ -19,6 +19,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.9.2'
     testImplementation 'org.seleniumhq.selenium:selenium-java:4.8.0'
     testImplementation("io.github.bonigarcia:webdrivermanager:5.3.2")
+    testImplementation group: 'com.codeborne', name: 'selenide', version: '6.11.2'
 }
 
 test {
